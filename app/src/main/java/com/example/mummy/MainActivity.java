@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     private Button button;
     private TextView textView;
-    private  TextView textView2;
+    private TextView textView2;
 
 
     @Override
@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                textView2.setText("I Love You Mummy");
+                textView2.setText("I Love You Mummy - Love rishii ");
             }
         });
     }
+}
